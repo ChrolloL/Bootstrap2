@@ -11458,5 +11458,44 @@ section.resume-section .resume-section-content {
 .social-icons2 {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-bottom: -50px;
+}
+
+
+.cont-squares {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 10px;
+  margin-left: -150px;
+  margin-bottom: -100px;
+  margin-top: -5px;
+}
+
+.quadrados {
+  width: auto;
+  height: auto;
+  display: grid;
+	grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.quadrados:nth-child(2) {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.quadrados:nth-child(3) {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.quadrados:nth-child(4) {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.quad {
+
+  width: 15px;
+  height: 15px;
+  background-color: white;
 }
